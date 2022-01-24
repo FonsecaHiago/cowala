@@ -1,0 +1,95 @@
+*{  margin: 10px;
+    padding: auto;
+    font-size: large;
+    
+}
+
+body{
+    background: #1b2029;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family:sans-serif;
+    padding: auto;
+    margin: auto;
+    
+}
+.img{
+    width: 1369px;
+    height: 178px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.principal{
+    width: 40%;
+    margin: auto;
+    background-color:#22252b ;
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.nome{
+    width: 72%;
+}
+
+.ip{
+    background-color: rgb(5, 238, 255);
+    font-size: large;
+    font-style:normal;
+    text-transform: uppercase;
+    margin: 10px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+.save{
+    background-color: blue;
+    font-size: large;
+    font-style:normal;
+    text-transform: uppercase;
+    margin: 10px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+.clear{
+    background-color: blue;
+    font-size: large;
+    font-style:normal;
+    text-transform: uppercase;
+    margin: 10px;
+    color: white;
+    padding: 5px 10px; 
+    cursor: pointer;
+    border: 1px solid #111;
+    border-radius: 5px;   
+}
+.ip:hover{
+    background: rgb(157, 224, 233);
+    transition: background 1s;
+}
+.save:hover{
+    background: rgb(52, 52, 238);
+    transition: background 1s;
+}
+.clear:hover{
+    background: rgb(52, 52, 238);
+    transition: background 1s;
+}
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    line-height: 80px;
+}
+.cell{
+    display:inline
+}

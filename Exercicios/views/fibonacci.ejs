@@ -1,0 +1,20 @@
+<%- include('../partials/header.ejs') %>
+<body>
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-header">
+                <h3>Insira o número de elementeos que deseja!</h3>
+            </div>
+            <div class="card-body">
+                <form action="/fibonacci" method="POST">
+                    <input class="form-control" type="number" name="value" placeholder="10">
+                    <br>
+                    <button type="submit" class="btn btn-primary col-12"> Calcular </button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<%- include('../partials/footer.ejs') %>
